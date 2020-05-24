@@ -170,21 +170,21 @@ Restart your shell by logging out logging back in. The configuration wizard shou
 
 Follow prompts to configure pl10k to your liking. First, it prompt you to verify whether you see given icons. Afterwards, you'll be prompted for ui preferences. **These are up to you.** The following choices work well but go crazy.
 
-* Prompt Style: Rainbow
-* Character Set: Unicode
-* Show Current Time: 24-hour format
-* Prompt Separators: Slanted
-* Prompt Heads: Sharp
-* Prompt Tails: Flat
-* Prompt Height: Two Lines
-* Prompt Connection: Solid
-* Prompt Frame: Left
-* Connection & Frame Color: Dark
-* Prompt Spacing: Sparse
-* Icons: Many Icons
-* Prompt Flow: Consise
-* Enable Transient Prompts: yes
-* Instant Prompt Mode: Verbose
+* **Prompt Style**: Rainbow
+* **Character Set**: Unicode
+* **Show Current Time**: 24-hour format
+* **Prompt Separators**: Slanted
+* **Prompt Heads**: Sharp
+* **Prompt Tails**: Flat
+* **Prompt Height**: Two Lines
+* **Prompt Connection**: Solid
+* **Prompt Frame**: Left
+* **Connection & Frame Color**: Dark
+* **Prompt Spacing**: Sparse
+* **Icons**: Many Icons
+* **Prompt Flow**: Concise
+* **Enable Transient Prompts**: yes
+* **Instant Prompt Mode**: Verbose
 
 If you don't like what you came up with restart or remove your `.p10k.zsh` file.
 
