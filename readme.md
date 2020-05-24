@@ -2,7 +2,7 @@
 
 Follow along to setup [WSL](https://docs.microsoft.com/en-us/windows/wsl/about) and [Z shell](https://en.wikipedia.org/wiki/Z_shell), an alternative to bash with awesome plugin and theme support. This setup uses the popular [Oh My Zsh](https://ohmyz.sh/) Zsh configuration framework to manage plugins and themes (it also comes bundled with a suite of aliases and helpers) and the impressive, [Powerlevel10k](https://github.com/romkatv/powerlevel10k) Zsh theme.
 
-## Table of Contents
+## Table of contents
 
 1. [WSL and Ubuntu](#WSL-and-Ubuntu)
     1. [Enable features for WSL and WSL 2](#Enable-features-for-WSL-and-WSL-2)
@@ -10,7 +10,7 @@ Follow along to setup [WSL](https://docs.microsoft.com/en-us/windows/wsl/about) 
 2. [VS Code](#VS-Code)
 3. [Windows Terminal](#Windows-Terminal)
     1. [Install Windows Terminal](#Install-Windows-Terminal)
-    2. [Update Default Profile](#Update-Default-Profile)
+    2. [Update default profile](#Update-default-profile)
     3. [Configure Windows Terminal](#Configure-Windows-Terminal)
 4. [Zsh and Oh My Zsh](#zsh-and-oh-my-zsh)
     1. [Install and setup Zsh](#Install-and-setup-Zsh)
@@ -21,7 +21,7 @@ Follow along to setup [WSL](https://docs.microsoft.com/en-us/windows/wsl/about) 
     3. [Run configuration wizard](#Run-configuration-wizard)
     4. [Enable battery indicator](#Enable-battery-indicator)
 6. [Install Zsh plugins](#Install-zsh-plugins)
-7. [Next Steps](#Next-steps)
+7. [Next steps](#Next-steps)
 8. [Revert to bash](#Revert-to-bash)
 
 ## WSL and Ubuntu
@@ -90,7 +90,7 @@ This section details how to install and configure [Windows Terminal](https://aka
 
 To install Windows Terminal, open **Windows Store**. Search for and install **Windows Terminal**. I suggest pinning Windows Terminal to your start menu or taskbar.
 
-### Update Default Profile
+### Update default profile
 
 The default profile shown when you launch Windows Terminal is Windows PowerShell. Selecting the dropdown reveals Ubuntu.
 
@@ -228,7 +228,7 @@ To install [zsh-autosuggestion](https://github.com/zsh-users/zsh-autosuggestions
 3. Edit `.zshrc` via your preferred editor be it nano, [micro](https://micro-editor.github.io/), VSCode, etc (i.e. for VSCode `code ~/.zshrc`).
 4. update the `plugins` line to: `plugins=(git zsh-autosuggestion zsh-syntax-highlighting)` and save.
 
-## Next Steps
+## Next steps
 
 Where to go from here? Some suggestions in no particular order:
 
