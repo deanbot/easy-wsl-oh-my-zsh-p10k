@@ -77,7 +77,7 @@ If you're a VS Code user some light setup is required for proper WSL use, namely
 
 **Remote - WSL** contains just the requirements for using WSL where as **Remote Development** contains a bundle of remote dev tools.
 
-VS Code will prompt you to install **Remote - WSL** after it detects that WSL is installed. Alternatively, install either via the **Install** button on the extension page or via the extensions tab in VS Code.
+VS Code will prompt you to install **Remote - WSL** after it detects that WSL is installed. Alternatively, install either extension via the extensions tab in VS Code or with the **Install** button on the extensions' page.
 
 See also: [[VS Code:] Developing in WSL](https://code.visualstudio.com/docs/remote/wsl)
 
@@ -104,7 +104,7 @@ See [settings.json](./settings.json) in this repo for reference.
 
 1. Include the following settings for `profiles.defaults`:
 
-    ```json
+    ```jsonc
     "defaults": {
         // Put settings here that you want to apply to all profiles.
         // "fontFace": "MesloLGS NF",
@@ -118,7 +118,7 @@ See [settings.json](./settings.json) in this repo for reference.
     ```
 
     Leave fontFace commented until you [install the font](#Install-fonts) in a following section.
-2. Hide irrelevant profiles by setting the `hidden` property to false.
+2. Hide irrelevant profiles by setting the `hidden` property to true.
 
 ## Zsh and Oh My Zsh
 
@@ -226,6 +226,7 @@ To install [zsh-autosuggestion](https://github.com/zsh-users/zsh-autosuggestions
 
 3. Edit `.zshrc` via your preferred editor be it nano, [micro](https://micro-editor.github.io/), VSCode, etc (i.e. for VSCode `code ~/.zshrc`).
 4. update the `plugins` line to: `plugins=(git zsh-autosuggestion zsh-syntax-highlighting)` and save.
+
 ## Next Steps
 
 Where to go from here? Some suggestions in no particular order:
