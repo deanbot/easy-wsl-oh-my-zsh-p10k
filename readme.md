@@ -10,7 +10,7 @@ Follow along to setup [WSL](https://docs.microsoft.com/en-us/windows/wsl/about) 
 3. [Windows Terminal](#Windows-Terminal)
     1. [Install Windows Terminal](#Install-Windows-Terminal)
     2. [Update Default Profile](#Update-Default-Profile)
-4. [zsh and oh-my-zsh](#zsh-and-oh-my-zsh)
+4. [Zsh and Oh My Zsh](#zsh-and-oh-my-zsh)
     1. [Install and setup Zsh](#Install-and-setup-Zsh)
     2. [Install Oh My Zsh](#Install-Oh-My-Zsh)
 5. [Powerlevel10k](#Powerlevel10k)
@@ -119,7 +119,7 @@ See [settings.json](./settings.json) in this repo for reference.
     Leave fontFace commented until you [install the font](#Install-fonts) in a following section.
 2. Hide irrelevant profiles by setting the `hidden` property to false.
 
-## Zsh + oh-my-zsh
+## Zsh and Oh My Zsh
 
 The following section details how to install Zsh and [Oh My Zsh](https://ohmyz.sh/).
 
