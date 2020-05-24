@@ -39,7 +39,7 @@ The following section details how to install [WSL](https://docs.microsoft.com/en
 
 [Updating to WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install-win10#update-to-wsl-2) is more involved. WSL 2 requires Windows **Build 19041**. For the time being, the most straight-forward method of updating to this build is to [join Windows Insider](https://insider.windows.com/insidersigninboth/).
 
-To verify your which Windows build you are running, open **Settings** and select **System**. Scroll to **Windows specifications** and note the value for **OS build**.
+To verify which Windows build you are running, open **Settings** and select **System**. Scroll to **Windows specifications** and note the value for **OS build**.
 
 If you meet the requirements:
 
@@ -148,11 +148,11 @@ If you had a `.zshrc` file it's now backed up as `.zshrc.pre-oh-my-zsh` and repl
 
 ## Powerlevel10k
 
-The following section outlines how to install the [Powerlevel10k](https://github.com/romkatv/powerlevel10k) Zsh theme. The recommended font for pl10k works well in Windows Terminal.
+The following section outlines how to install the [Powerlevel10k](https://github.com/romkatv/powerlevel10k) Zsh theme. The recommended font for p10k works well in Windows Terminal.
 
 ### Install fonts
 
-First, manually install the recommended Meslo Nerd Font (patched for pl10k) - [found here](https://github.com/romkatv/powerlevel10k#manual-font-installation).
+First, manually install the recommended Meslo Nerd Font (patched for p10k) - [found here](https://github.com/romkatv/powerlevel10k#manual-font-installation).
 
 To install, download and double-click each variation and select install.
 
@@ -160,7 +160,7 @@ _Note: If using Windows Terminal, enable the font by adding `"fontFace": "MesloL
 
 ### Install theme
 
-To install pl10k:
+To install p10k:
 
 1. Run: `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k`
 2. Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`.
@@ -169,7 +169,7 @@ To install pl10k:
 
 Restart your shell by logging out logging back in. The configuration wizard should start automatically, otherwise run `p10k configure`.
 
-Follow prompts to configure pl10k to your liking. First, it prompt you to verify whether you see given icons. Afterwards, you'll be prompted for ui preferences. **These are up to you.** The following choices work well but go crazy.
+Follow prompts to configure p10k to your liking. First, it prompt you to verify whether you see given icons. Afterwards, you'll be prompted for ui preferences. **These are up to you.** The following choices work well but go crazy.
 
 * **Prompt Style**: Rainbow
 * **Character Set**: Unicode
@@ -189,7 +189,7 @@ Follow prompts to configure pl10k to your liking. First, it prompt you to verify
 
 If you don't like what you came up with restart or remove your `.p10k.zsh` file.
 
-See [p10k.zsh](./p10k) in this repo for reference.
+See [p10k.zsh](./p10k.zsh) in this repo for reference.
 
 The configuration I'm using at any given time is found in my [deanbot/dotfiles](https://github.com/deanbot/dotfiles) repo.
 
@@ -237,7 +237,7 @@ Where to go from here? Some suggestions in no particular order:
 * Familiarize yourself with [Zsh](http://zsh.sourceforge.net/) and browse [tips & tricks](https://github.com/hmml/awesome-zsh) from the community.
 * View the Oh My Zsh [cheatsheet](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet).
 * Explore the Oh My Zsh [plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins) directory.
-* [Customize](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins) pl10k.
+* [Customize](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins) p10k.
 
 ## Revert to Bash
 
