@@ -119,7 +119,7 @@ See [settings.json](./settings.json) in this repo for reference.
     ```
 
     Leave fontFace commented until you [install the font](#Install-fonts) in a following section.
-2. Hide irrelevant profiles by setting the `hidden` property to true.
+2. Hide irrelevant profiles by setting the `hidden` property to `true`.
 
 ## Zsh and Oh My Zsh
 
