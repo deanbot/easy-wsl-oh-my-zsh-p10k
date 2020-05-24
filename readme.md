@@ -1,4 +1,4 @@
-# Easy WSL oh-my-zsh setup w/ Powerlevel10k Walkthrough
+# Easy WSL + Oh My Zsh w/ Powerlevel10k walkthrough
 
 Follow along to setup [WSL](https://docs.microsoft.com/en-us/windows/wsl/about) and [Z shell](https://en.wikipedia.org/wiki/Z_shell), an alternative to bash with awesome plugin and theme support. This setup uses the popular [Oh My Zsh](https://ohmyz.sh/) Zsh configuration framework to manage plugins and themes (it also comes bundled with a suite of aliases and helpers) and the impressive, [Powerlevel10k](https://github.com/romkatv/powerlevel10k) Zsh theme.
 
@@ -6,6 +6,7 @@ Follow along to setup [WSL](https://docs.microsoft.com/en-us/windows/wsl/about) 
 
 1. [WSL and Ubuntu](#WSL-and-Ubuntu)
     1. [Enable features for WSL and WSL 2](#Enable-features-for-WSL-and-WSL-2)
+    2. [Install Ubuntu](#Install-Ubuntu)
 2. [VS Code](#VS-Code)
 3. [Windows Terminal](#Windows-Terminal)
     1. [Install Windows Terminal](#Install-Windows-Terminal)
