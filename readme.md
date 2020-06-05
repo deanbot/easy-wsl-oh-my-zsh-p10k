@@ -131,7 +131,7 @@ To install Z shell and set it as your default shell run:
 
 ```sh
 sudo apt install zsh
-chsh -s $(which zsh)
+chsh -s /bin/zsh
 ```
 
 Log out and login back again to use your new default shell.
