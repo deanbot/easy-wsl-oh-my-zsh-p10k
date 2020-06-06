@@ -1,5 +1,7 @@
 # Easy WSL + Oh My Zsh w/ Powerlevel10k walkthrough
 
+![WSL screenshot](./wsl-screenshot.png)
+
 Follow along to setup [WSL](https://docs.microsoft.com/en-us/windows/wsl/about) and [Z shell](https://en.wikipedia.org/wiki/Z_shell), an alternative to bash with awesome plugin and theme support. This setup uses the popular [Oh My Zsh](https://ohmyz.sh/) Zsh configuration framework to manage plugins and themes (it also comes bundled with a suite of aliases and helpers) and the impressive, [Powerlevel10k](https://github.com/romkatv/powerlevel10k) Zsh theme.
 
 ## Table of contents
