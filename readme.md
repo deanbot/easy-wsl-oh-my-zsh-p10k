@@ -228,7 +228,7 @@ To install [zsh-autosuggestion](https://github.com/zsh-users/zsh-autosuggestions
     ```
 
 3. Edit `.zshrc` via your preferred editor be it nano, [micro](https://micro-editor.github.io/), VSCode, etc (i.e. for VSCode `code ~/.zshrc`).
-4. update the `plugins` line to: `plugins=(git zsh-autosuggestion zsh-syntax-highlighting)` and save.
+4. update the `plugins` line to: `plugins=(git zsh-autosuggestions zsh-syntax-highlighting)` and save.
 
 ## Next steps
 
