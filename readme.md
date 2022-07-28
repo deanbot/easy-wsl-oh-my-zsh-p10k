@@ -110,7 +110,10 @@ See [settings.json](./settings.json) in this repo for reference.
     ```jsonc
     "defaults": {
         // Put settings here that you want to apply to all profiles.
-        // "fontFace": "MesloLGS NF",
+        "font": {
+            // "face": "MesloLGS NF",
+            "size": 9
+        },
         "fontSize": 9,
         "snapOnInput": true,
         "historySize": 9001,
