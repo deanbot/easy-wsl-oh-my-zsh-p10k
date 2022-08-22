@@ -6,25 +6,27 @@ Follow along to setup [WSL](https://docs.microsoft.com/en-us/windows/wsl/about) 
 
 ## Table of contents
 
-1. [WSL and Ubuntu](#WSL-and-Ubuntu)
-    1. [Enable features for WSL and WSL 2](#Enable-features-for-WSL-and-WSL-2)
-    2. [Install Ubuntu](#Install-Ubuntu)
-2. [VS Code](#VS-Code)
-3. [Windows Terminal](#Windows-Terminal)
-    1. [Install Windows Terminal](#Install-Windows-Terminal)
-    2. [Update default profile](#Update-default-profile)
-    3. [Configure Windows Terminal](#Configure-Windows-Terminal)
-4. [Zsh and Oh My Zsh](#zsh-and-oh-my-zsh)
-    1. [Install and setup Zsh](#Install-and-setup-Zsh)
-    2. [Install Oh My Zsh](#Install-Oh-My-Zsh)
-5. [Powerlevel10k](#Powerlevel10k)
-    1. [Install fonts](#Install-fonts)
-    2. [Install theme](#Install-theme)
-    3. [Run configuration wizard](#Run-configuration-wizard)
-    4. [Enable battery indicator](#Enable-battery-indicator)
-6. [Install Zsh plugins](#Install-zsh-plugins)
-7. [Next steps](#Next-steps)
-8. [Revert to bash](#Revert-to-bash)
+- [Easy WSL + Oh My Zsh w/ Powerlevel10k walkthrough](#easy-wsl--oh-my-zsh-w-powerlevel10k-walkthrough)
+  - [Table of contents](#table-of-contents)
+  - [WSL and Ubuntu](#wsl-and-ubuntu)
+    - [Enable features for WSL and WSL 2](#enable-features-for-wsl-and-wsl-2)
+    - [Install Ubuntu](#install-ubuntu)
+  - [Windows Terminal](#windows-terminal)
+    - [Install Windows Terminal](#install-windows-terminal)
+    - [Update default profile](#update-default-profile)
+    - [Configure Windows Terminal](#configure-windows-terminal)
+  - [Zsh and Oh My Zsh](#zsh-and-oh-my-zsh)
+    - [Install and setup Zsh](#install-and-setup-zsh)
+    - [Install Oh My Zsh](#install-oh-my-zsh)
+  - [Powerlevel10k](#powerlevel10k)
+    - [Install fonts](#install-fonts)
+    - [Install theme](#install-theme)
+    - [Run configuration wizard](#run-configuration-wizard)
+    - [Enable battery indicator](#enable-battery-indicator)
+  - [Install Zsh Plugins](#install-zsh-plugins)
+  - [VS Code](#vs-code)
+  - [Next steps](#next-steps)
+  - [Revert to Bash](#revert-to-bash)
 
 ## WSL and Ubuntu
 
@@ -73,16 +75,6 @@ To install the latest Ubuntu LTS version (i.e. 20.04):
     Press `[enter]` to select `Y` at the prompt to install any package updates.
 
 We'll switch to Windows Terminal in a following step, as the default WSL/Ubuntu terminal emulator is not the greatest.
-
-## VS Code
-
-If you're a VS Code user some light setup is required for proper WSL use, namely installation of the [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) extension or the [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) extension pack.
-
-**Remote - WSL** contains just the requirements for using WSL where as **Remote Development** contains a bundle of remote dev tools.
-
-VS Code will prompt you to install **Remote - WSL** after it detects that WSL is installed. Alternatively, install either extension via the extensions tab in VS Code or with the **Install** button on the extensions' page.
-
-See also: [[VS Code:] Developing in WSL](https://code.visualstudio.com/docs/remote/wsl)
 
 ## Windows Terminal
 
@@ -232,6 +224,20 @@ To install [zsh-autosuggestion](https://github.com/zsh-users/zsh-autosuggestions
 
 3. Edit `.zshrc` via your preferred editor be it nano, [micro](https://micro-editor.github.io/), VSCode, etc (i.e. for VSCode `code ~/.zshrc`).
 4. update the `plugins` line to: `plugins=(git zsh-autosuggestions zsh-syntax-highlighting)` and save.
+
+## VS Code
+
+If you're a VS Code user some light setup is required for proper WSL use, namely installation of the [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) extension or the [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) extension pack.
+
+**Remote - WSL** contains just the requirements for using WSL where as **Remote Development** contains a bundle of remote dev tools.
+
+VS Code will prompt you to install **Remote - WSL** after it detects that WSL is installed. Alternatively, install either extension via the extensions tab in VS Code or with the **Install** button on the extensions' page.
+
+If terminal of VS Code is not display normally once you are access WSL terminal.Then press `Ctrl+,` to open the setting of VS Code,Then searche `Editor:Font Family`.You can see there are several fonts' name,You may fix this issue by adding supported font by the end or simply replace the value.  
+
+Here is an example of my setting: `'Droid Sans Mono', 'monospace', monospace, MesloLGS NF`  
+
+See also: [[VS Code:] Developing in WSL](https://code.visualstudio.com/docs/remote/wsl)
 
 ## Next steps
 
